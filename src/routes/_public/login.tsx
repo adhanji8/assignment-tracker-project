@@ -27,8 +27,6 @@ function LoginPage() {
 
   async function onSubmit(e: React.SubmitEvent) {
     e.preventDefault();
-    setError(null);
-    setPending(true);
     const { error } = await authClient.signIn.email({ email, password });
     if (error) {
       setError(error.message ?? "Login failed");
