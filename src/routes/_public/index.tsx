@@ -8,8 +8,8 @@ function Landing() {
       <div className="space-y-2">
         <h1 className="text-4xl font-bold">Assignment Tracker</h1>
         <p className="text-lg">
-          Keep track of all your assignment deadlines in one place, so nothing
-          slips through the cracks.
+          SOME CHANGE. Keep track of all your assignment deadlines in one place, so nothing slips
+          through the cracks.
         </p>
       </div>
 
